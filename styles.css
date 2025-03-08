@@ -1,0 +1,82 @@
+body {
+
+    background-image: url('assets/sky-nuage_1204-46.avif'); /* Remplacez par le chemin de votre image */
+    background-size: cover;  /* Assurez-vous que l'image couvre toute la page */
+    background-position: center; /* Centrer l'image */
+    background-attachment: fixed; /* Garder l'image fixe lors du défilement */
+    margin: 0; /* Supprime les marges par défaut du body */
+    height: 100vh; /* Assurez-vous que le body prend toute la hauteur de la fenêtre */
+}
+
+.container {
+    max-width: 600px;
+    margin:  auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-btn {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    margin-top: 20px;
+   
+
+}
+
+#location {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#description {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Media Queries pour rendre l'application responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    #city-input {
+        width: 80%;
+    }
+}
