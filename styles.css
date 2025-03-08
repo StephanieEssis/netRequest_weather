@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    background-image: url('assets/purple.avif');
     max-width: 600px;
     margin:  auto;
     text-align: center;
@@ -51,6 +52,7 @@ h1 {
 
 #weather-info {
     margin-top: 20px;
+   
    
 
 }
